@@ -6,13 +6,17 @@ import { Modal, makeStyles, Button, Input, Avatar } from "@material-ui/core";
 import ImageUpload from "./ImageUpload";
 import InstagramEmbed from "react-instagram-embed";
 
-function rand() {
-    return Math.round(Math.random() * 20) - 10;
-}
+// // this functon is not required
+// function rand() {
+//     return Math.round(Math.random() * 20) - 10;
+// }
 
 function getModalStyle() {
-    const top = 50 + rand();
-    const left = 50 + rand();
+//     you can remove rand() function from this code
+//     const top = 50 + rand();
+//     const left = 50 + rand();
+    const top = 50;
+    const left = 50;
 
     return {
         top: `${top}%`,
